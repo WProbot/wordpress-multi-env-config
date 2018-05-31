@@ -149,6 +149,22 @@ Example usage when using a wildcard for WordPress multi-site.
     ],
 ```
 
+## Running tests
+
+Initialise test environment:
+
+```
+bin/install-wp-tests.sh wordpress_test root root localhost latest
+```
+
+See https://make.wordpress.org/cli/handbook/plugin-unit-tests/
+
+Run tests:
+
+```
+phpunit
+```
+
 ## Installing
 Please note this requires PHP5.4 or above. You should really be on PHP5.6 at a minimum!
 
